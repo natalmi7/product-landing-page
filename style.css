@@ -8,6 +8,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+    scroll-behavior: smooth;
 }
 
 li, a {
@@ -38,6 +39,11 @@ body {
     cursor: pointer;
     width: auto;
     height: 150px;
+    transition: all 0.3s ease 0s;
+ }
+
+ #header-img:hover {
+     opacity: .85;
  }
 
 .nav-list li {
@@ -103,10 +109,12 @@ button:hover {
 
 #courses {
     font-size: 40px;
+    padding: 20px;
 }
 
 .course-list {
     list-style-type: none;
+    margin-bottom: 3em;
 }
 
 .course-list li {
@@ -114,7 +122,51 @@ button:hover {
     font-size: 25px;
     padding: 10px 25px;
     border: solid;
-    border-radius: 5px;
+    border-color: rgb(245, 199, 71, 1);
+    border-radius: 10px;
+    margin: 0 2em;
+    width: 15em;
+    background-color: black;
+    color: white;
+}
+
+#blues-guitar {
+    width: 15em;
+    height: 8em;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 
+#jazz-guitar {
+    width: 15em;
+    height: 8em;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#rock-guitar {
+    width: 15em;
+    height: 8em;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.course-button {
+    font-size: medium;
+    border: none;
+    background-color: rgb(245, 199, 71, 1);
+    height: 2em;
+    width: 10em;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 20px;
+}
+
+.course-button:hover {
+    background-color: rgb(219, 177, 60);
+    cursor: pointer;
+}
