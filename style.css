@@ -11,6 +11,10 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     scroll-behavior: smooth;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 li, a {
     font-size: xx-large;
     text-decoration: none;
@@ -26,11 +30,11 @@ body {
     z-index: 2;
     top: 0;
     left: 0;
-    right: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5%;
+    padding: 0px 50px;
     font-family: 'Shadows Into Light', cursive;
     background-color: black;
 }
@@ -99,8 +103,6 @@ button:hover {
 }
 
 #features {
-    position: relative;
-    top: 140px;
     text-align: center;
     margin-top: 100px;
     font-family: 'Slabo 27px', serif;
@@ -109,7 +111,7 @@ button:hover {
 
 #courses {
     font-size: 40px;
-    padding: 20px;
+    padding: 40px 0;
     scroll-margin-top: 4em;
 }
 
@@ -131,29 +133,25 @@ button:hover {
     color: white;
 }
 
+.course-list li .course-img {
+    height: 200px;
+    margin: 10px 0;
+}
+
 #blues-guitar {
-    width: 15em;
-    height: 8em;
-    display: flex;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    background: url("https://www.ultimate-guitar.com/static/article/lesson/6/7256_0_wide_ver1596404390.jpg@642") no-repeat center center/cover;
+    box-shadow: 0 0 8px 8px black inset;
 }
 
 
 #jazz-guitar {
-    width: 15em;
-    height: 8em;
-    display: flex;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    background: url("https://www.ultimate-guitar.com/static/article/news/2/78572_0_wide_ver1535042438.jpg@642") no-repeat center center/cover;
+    box-shadow: 0 0 8px 8px black inset;
 }
 
 #rock-guitar {
-    width: 15em;
-    height: 8em;
-    display: flex;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    background: url("https://images.unsplash.com/photo-1454922915609-78549ad709bb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1951&q=80") no-repeat center center/cover;
+    box-shadow: 0 0 8px 8px black inset;
 }
 
 .course-button {
@@ -178,9 +176,9 @@ button:hover {
     top: 140px;
     height: 700px;
     background-color: rgb(241, 241, 239);
-    margin: 100px 0px;
+    margin: 100px 0px 0px 0px;
     text-align: center;
-    padding: 100px;
+    padding: 100px 100px 200px 100px;
     font-family: 'Slabo 27px', serif;
     scroll-margin-top: 4em;
 }
@@ -207,7 +205,6 @@ button:hover {
     position: relative;
     scroll-margin-top: 4em;
     height: 350px;
-    margin: 0px 100px;
     background-color: rgba(0, 136, 169, 1);
 }
 
@@ -253,13 +250,10 @@ button:hover {
 }
 
 #contact {
-    position: relative;
-    top: 140px;
     text-align: center;
     font-family: 'Slabo 27px', serif;
     scroll-margin-top: 4em;
-    height: 507px;
-    width: 2000px;
+    height: 500px;
     margin-top: 110px;
     background-color: rgb(241, 241, 239);
 }
