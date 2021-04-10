@@ -16,7 +16,7 @@
             <ul class="nav-list">
               <li><a href="#courses" class="nav-link">Courses</a></li>        
               <li><a href="#about" class="nav-link">About</a></li>
-              <li><a href="#form" class="nav-link">Sign-up</a></li>
+              <li><a href="#form" class="nav-link">Sign-in</a></li>
             </ul>
         </nav>
         <a href="#" class="contact"><button>Contact</button></a>
@@ -58,8 +58,13 @@
         <div class="signup">
             <h1>Sign up</h1>
             <h2>For free</h2>
-            <center><input id="email" type="email" placeholder="example@gmail.com" required></center>
-            <input id="submit" type="submit" value="Submit">
+            <div class="signup-form">
+                <label for="name" id="name" class="label">Name</label>
+                <input id="input-name" class="input" type="text" name="name" placeholder="Enter your name" required>
+                <label for="email" class="label" id="email">Email</label>
+                <input id="email-input" class="input" type="email" placeholder="example@gmail.com" required>
+                <input id="submit" type="submit" value="Submit">
+            </div>
         </div>
     </form>
 
