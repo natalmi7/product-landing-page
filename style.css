@@ -191,13 +191,14 @@ button:hover {
     font-size: 25px;
     width: 700px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 #video {
     padding: 20px;
 }
 
-#form{
+#survey-form{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,7 +207,7 @@ button:hover {
     position: relative;
     scroll-margin-top: 4em;
     height: 350px;
-    background-color: #444;
+    background: url("https://images.unsplash.com/photo-1506193635280-b7e8058ac0f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=940&q=80");
 }
 
 #form h1 {
@@ -255,17 +256,39 @@ button:hover {
 }
 
 #contact {
-    text-align: center;
-    font-family: 'Slabo 27px', serif;
-    scroll-margin-top: 4em;
-    height: 500px;
-    background-color: rgb(241, 241, 239);
+   background: rgb(0, 3, 15);
+   color: #fff;
+   font-family: 'Slabo 27px', serif;
+   text-align: center;
+   padding: 40px;
+   border-top: solid #444;
 }
 
-#contact h1 {
-    font-size: 30px;
-    font-family: sans-serif;
-    color: black;
-    margin-top: 50px;
-    font-weight: 400;
+.social-media-icons {
+    height: 50px;
+}
+
+.icon {
+    color: #fff;
+    padding: 0 20px;
+}
+
+.icon:hover {
+    color: rgb(201, 201, 201);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer-links a {
+    padding: 5px 5px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: rgb(201, 201, 201);
 }
