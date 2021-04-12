@@ -210,12 +210,12 @@ button:hover {
     background: url("https://images.unsplash.com/photo-1506193635280-b7e8058ac0f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=940&q=80");
 }
 
-#form h1 {
+#survey-form h1 {
     font-size: 40px;
     color: white;
 }
 
-#form h2 {
+#survey-form h2 {
     font-size: 30px;
     color: white;
 }
