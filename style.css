@@ -352,6 +352,18 @@ button:hover {
         height: 100vh;
     }
 
+    #features {
+        margin-top: 0;
+    }
+
+    #courses {
+        padding: 10px 0;
+    }
+
+    .course-list li {
+        margin: 0;
+    }
+
     #video-div {
         height: 15rem;
         width: 24rem;
