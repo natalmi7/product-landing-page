@@ -333,10 +333,20 @@ button:hover {
     a.contact {
         font-size: 10px;
         margin-left: auto;
+        margin-right: 10px;
     }
 
     a.contact button {
-        font-size: 15px;
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #title {
+        font-size: 45px;
+    }
+
+    #welcome {
+        font-size: 28px;
     }
 
     #about {
@@ -362,18 +372,17 @@ button:hover {
 
     .course-list li {
         margin: 0;
+        width: 20rem;
     }
 
     #video-div {
-        height: 15rem;
-        width: 24rem;
+        height: 10rem;
+        width: 20rem;
     }
 
     #video {
         height: 100%;
     }
-
-
 }
 
 /* Tablets */
