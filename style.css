@@ -106,7 +106,6 @@ button:hover {
 
 #features {
     text-align: center;
-    margin-top: 100px;
     font-family: 'Slabo 27px', serif;
     background: #fff;
     padding-bottom: 50px;
@@ -115,7 +114,7 @@ button:hover {
 #courses {
     font-size: 40px;
     padding: 40px 0;
-    scroll-margin-top: 4em;
+    scroll-margin-top: 6rem;
 }
 
 .course-list {
@@ -178,9 +177,9 @@ button:hover {
     z-index: 0;
     background-color: rgb(241, 241, 239);
     text-align: center;
-    padding: 100px;
+    padding: 2rem;
     font-family: 'Slabo 27px', serif;
-    scroll-margin-top: 4em;
+    scroll-margin-top: 6rem;
 }
 
 #about h1 {
