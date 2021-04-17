@@ -421,16 +421,61 @@ button:hover {
 }
 
 /* normal */
-@media(min-width: 769px) (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .course-list {
+        display: flex;
+        justify-content: center;
+    }
 
+    .course-list li {
+        margin: 0 1rem;
+    }
 }
 
 /* widescreen */
 @media(min-width: 1201px) {
+    .course-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .course-list li {
+        margin: 0 1rem;
+    }
 }
 
 /* landscape */
 @media(max-height: 500px) {
+    #main {
+        height: 100vh;
+    }
 
+    #features {
+        margin-top: 2rem;
+    }
+
+    .course-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: ;
+    }
+
+    .course-list li {
+        margin: 0 2px;
+    }
+
+    #about p {
+        font-size: 20px;
+    }
+
+    #video-div {
+        width: 100%;
+    }
+
+    #video {
+        height: 15rem;
+        width: 22rem;
+    }
 }
