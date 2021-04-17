@@ -178,7 +178,7 @@ button:hover {
     z-index: 0;
     background-color: rgb(241, 241, 239);
     text-align: center;
-    padding: 100px 100px 200px 100px;
+    padding: 100px;
     font-family: 'Slabo 27px', serif;
     scroll-margin-top: 4em;
 }
